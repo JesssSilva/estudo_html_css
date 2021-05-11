@@ -256,7 +256,7 @@ header ul li a:hover
         right: 20px;
         width: 40px;
         height: 40px;
-        background: #0169b2 url(menu.png);
+        background: #0169b2 url(./assets/menu.png);
         background-size: 30px;
         background-repeat: no-repeat;
         background-position: center;
@@ -264,9 +264,10 @@ header ul li a:hover
         z-index: 1000;
         border-radius: 2px;
     }
+
     .toggle.active
     {
-        background: #0169b2 url(close.png);
+        background: #0169b2 url(./assets/close.png);
         background-size: 25px;
         background-repeat: no-repeat;
         background-position: center;  
