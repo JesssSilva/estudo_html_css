@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ramadan Kareem </title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section>
+    <img src="./assets/mosque.jpg" class="mosque">
+    <header>
+       <a href="#" class="logo">Ramadan</a>
+       <div class="toggle"></div>
+          <ul class="navigation">
+             <li><a href="#"   style="--i:1;"  class="active">Home</a></li>
+              <li><a href="#"  style="--i:2;">About</a></li>
+              <li><a href="#"  style="--i:3;">Calendar</a></li>
+              <li><a href="#"  style="--i:4;">Blog</a></li>
+              <li><a href="#"  style="--i:5;">Contact</a></li>
+          </ul>
+     </header>
+
+     <div class="content">
+        <div class="textBox">
+          <h2>Happy Ramadan Kareem</h2>
+          <p>Forgive and ask for forgiveness. May this Ramadan teach us to forgive and recognize our past mistakes!</p>
+          <a href="#">Read More</a>
+        </div>
+     </div>
+
+     <ul class="sci">
+        <Li><a href="#" style="--i:12;" ><img src="./assets/facebook.png"></a></Li>
+        <Li><a href="#" style="--i:13;"><img src="./assets/twitter.png"></a></Li>
+        <Li><a href="#" style="--i:14;"><img src="./assets/instagram.png"></a></Li>
+    </section>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+        const navigation = document.querySelector('.navigation');
+        menuToggle.onclick = function(){
+          menuToggle.classList.toggle('active');
+          navigation.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
